@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextViewActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbars="horizontal|vertical">
+
+            <TextView
+                android:id="@+id/textViewWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/placeInstallLbl" />
+
+            <TextView
+                android:id="@+id/textViewPalce"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:text=""
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewWhite3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/roomsLbl" />
+
+            <TextView
+                android:id="@+id/textViewUpDownSys"
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:scrollbars="none"
+                android:text=""
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewWhite2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/placesLbl" />
+
+            <TextView
+                android:id="@+id/textViewRooms"
+                android:layout_width="match_parent"
+                android:layout_height="247dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbars="none"
+                android:scrollHorizontally="false"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewWhite5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/systemName" />
+
+            <TextView
+                android:id="@+id/textViewSysName"
+                android:layout_width="match_parent"
+                android:layout_height="156dp"
+                android:scrollbars="none"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
