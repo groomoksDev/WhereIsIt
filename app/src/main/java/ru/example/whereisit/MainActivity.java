@@ -3,20 +3,14 @@ package ru.example.whereisit;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.method.ScrollingMovementMethod;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.LinearLayout;
-import android.widget.ScrollView;
 import android.widget.Spinner;
-import android.widget.TextView;
 
-import java.util.stream.IntStream;
+import ru.example.whereisit.ventilation.TextViewActivity;
 
 public class MainActivity extends AppCompatActivity {
     Spinner spinnerSys;
     Spinner spinnerPlaceInstall;
-    TextView textView;
 
 
     @Override
@@ -24,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+/*
         spinnerSys = findViewById(R.id.spinnerSys);
         spinnerSys.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -49,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             public void onNothingSelected(AdapterView<?> parent) {
 
             }
-        });
+        });*/
     }
 
     void openActivity(View itemSelected, int itemSelectedPosition) {

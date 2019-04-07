@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="7dp">
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:text="@string/headline2"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:text="@string/headline1"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinnerPlaceInstall"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:entries="@array/placeInstall" />
+
+            <Spinner
+                android:id="@+id/spinnerSys"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:entries="@array/systemName" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

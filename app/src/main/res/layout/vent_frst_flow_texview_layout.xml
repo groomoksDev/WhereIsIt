@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TextViewActivity">
+    tools:context=".ventilation.TextViewActivity">
 
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/ScrollView"
@@ -57,7 +57,7 @@
                 android:layout_height="247dp"
                 android:scrollbarAlwaysDrawHorizontalTrack="false"
                 android:scrollbars="none"
-                android:scrollHorizontally="false"
+                android:scrollHorizontally="true"
                 android:text=""
                 android:textColor="@color/colorAccent"
                 android:textSize="20sp" />

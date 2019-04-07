@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">WhereIsIt</string>
+    <!--main buttons String-->
+    <string name="ventBtn">Вытяжная вентиляция</string>
+    <string name="shortTermPowerFailureBtn">Кратковременный сбой электроэнергии</string>
+    <string name="wiringFluorescentLampsBtn">Схема подключения люминесцентных ламп</string>
+    <string name="electricToolBtn">Электрический инструмент</string>
+    <string name="switchboardBtn">Электрощитовые</string>
+    <!--main buttons String-->
+
+    <!--вентиляция String-->
     <string name="headline1">Вытяжная вентиляция 1-го этажа административного здания</string>>
     <string name="headline2">Шкаф автоматов вкл/выкл вытяжной вентиляции в электрощитовой (комната №54)</string>
     <string name="placeInstallLbl">Место установки:</string>
@@ -7,6 +16,18 @@
     <string name="roomsLbl">Место вкл/выкл системы</string>
     <string name="systemName">Обозначение системы</string>
 
+    <string name="ventilationsTechFlowBtn">Вытяжная вентиляция</string>
+    <string name="ventilationsFirstFlowBtn">Вытяжная вентиляция (1 этаж)</string>
+
+    <string name="ventTechTitle">ГЛАВНАЯ КНОПКА НА ЩУ №1 В 54 ЩИТОВОЙ</string>
+    <string name="ventTechText">
+        Включить П-5 (ПРИТОК) И Н-5 в П-39
+        Включить В-18 в П-36 (Тех. помещение)
+        ПАН №1 и ПАН №2 находятся в Щитовой №54 (первый этаж)
+        Я-2 в Щитовой №51 (первый этаж) </string>
+    <!--вентиляция String-->
+
+    <!--вентиляция String-Array-->
     <string-array name="systemName">
         <item>Обозначение системы</item>
         <item>В-1 (0,75кВт-380В)</item>
@@ -70,5 +91,5 @@
         <item>КОМНАТА УБОРЩИЦ</item>
         <item>ПОДСОБКА - КАФЕ</item>
     </string-array>
-
+    <!--вентиляция String-Array-->
 </resources>
