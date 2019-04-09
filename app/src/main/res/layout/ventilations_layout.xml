@@ -18,22 +18,22 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/ventilationsTechFlowBtn"
                 android:layout_width="290dp"
                 android:layout_height="81dp"
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="100dp"
-                android:text="@string/ventilationsTechFlowBtn"
+                android:text="@string/ventilationsTechFlowBtnTxt"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/ventilationsFirstFlowBtn"
                 android:layout_width="290dp"
                 android:layout_height="81dp"
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="268dp"
-                android:text="@string/ventilationsFirstFlowBtn"
+                android:text="@string/ventilationsFirstFlowBtnTxt"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </LinearLayout>

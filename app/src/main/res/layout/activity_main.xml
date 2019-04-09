@@ -18,39 +18,39 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/ventBtn"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_marginTop="30dp"
-                android:text="@string/ventBtn" />
+                android:text="@string/ventBtnTxt" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/shortTermPowerFailureBtn"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_marginTop="30dp"
-                android:text="@string/shortTermPowerFailureBtn" />
+                android:text="@string/shortTermPowerFailureBtnTxt" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/wiringFluorescentLampsBtn"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_marginTop="30dp"
-                android:text="@string/wiringFluorescentLampsBtn" />
+                android:text="@string/wiringFluorescentLampsBtnTxt" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/electricToolBtn"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_marginTop="30dp"
-                android:text="@string/electricToolBtn" />
+                android:text="@string/electricToolBtnTxt" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/switchboardBtn"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_marginTop="30dp"
-                android:text="@string/switchboardBtn" />
+                android:text="@string/switchboardBtnTxt" />
         </LinearLayout>
     </ScrollView>
 

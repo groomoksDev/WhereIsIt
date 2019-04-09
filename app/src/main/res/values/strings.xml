@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">WhereIsIt</string>
     <!--main buttons String-->
-    <string name="ventBtn">Вытяжная вентиляция</string>
-    <string name="shortTermPowerFailureBtn">Кратковременный сбой электроэнергии</string>
-    <string name="wiringFluorescentLampsBtn">Схема подключения люминесцентных ламп</string>
-    <string name="electricToolBtn">Электрический инструмент</string>
-    <string name="switchboardBtn">Электрощитовые</string>
+    <string name="ventBtnTxt">Вытяжная вентиляция</string>
+    <string name="shortTermPowerFailureBtnTxt">Кратковременный сбой электроэнергии</string>
+    <string name="wiringFluorescentLampsBtnTxt">Схема подключения люминесцентных ламп</string>
+    <string name="electricToolBtnTxt">Электрический инструмент</string>
+    <string name="switchboardBtnTxt">Электрощитовые</string>
     <!--main buttons String-->
 
     <!--вентиляция String-->
@@ -16,8 +16,8 @@
     <string name="roomsLbl">Место вкл/выкл системы</string>
     <string name="systemName">Обозначение системы</string>
 
-    <string name="ventilationsTechFlowBtn">Вытяжная вентиляция</string>
-    <string name="ventilationsFirstFlowBtn">Вытяжная вентиляция (1 этаж)</string>
+    <string name="ventilationsTechFlowBtnTxt">Вытяжная вентиляция</string>
+    <string name="ventilationsFirstFlowBtnTxt">Вытяжная вентиляция (1 этаж)</string>
 
     <string name="ventTechTitle">ГЛАВНАЯ КНОПКА НА ЩУ №1 В 54 ЩИТОВОЙ</string>
     <string name="ventTechText">

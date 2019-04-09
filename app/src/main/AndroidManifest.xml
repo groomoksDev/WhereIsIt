@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".ventilation.TextViewActivity"></activity>
+        <activity android:name=".ventilation.VentilationsActivity"></activity>
+        <activity android:name=".ventilation.VentilationTechFlowActivity"></activity>
+        <activity android:name=".ventilation.VentilationFirstFlowActivity"></activity>
     </application>
 
 </manifest>

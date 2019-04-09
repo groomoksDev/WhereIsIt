@@ -12,7 +12,7 @@ import ru.example.whereisit.R;
 import static ru.example.whereisit.Classifier.SysNameClassifier.*;
 
 public class TextViewActivity extends AppCompatActivity {
-
+    @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vent_frst_flow_texview_layout);
