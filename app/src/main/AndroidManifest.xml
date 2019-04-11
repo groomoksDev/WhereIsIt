@@ -16,10 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ventilation.TextViewActivity"></activity>
-        <activity android:name=".ventilation.VentilationsActivity"></activity>
-        <activity android:name=".ventilation.VentilationTechFlowActivity"></activity>
-        <activity android:name=".ventilation.VentilationFirstFlowActivity"></activity>
+        <activity android:name=".ui.ventilation.TextViewActivity"></activity>
+        <activity android:name=".ui.ventilation.VentilationsActivity"></activity>
+        <activity android:name=".ui.ventilation.VentilationTechFlowActivity"></activity>
+        <activity android:name=".ui.ventilation.VentilationFirstFlowActivity"></activity>
+        <activity android:name=".ui.powerfailure.ShortTermPowerFailureActivity"></activity>
     </application>
 
 </manifest>

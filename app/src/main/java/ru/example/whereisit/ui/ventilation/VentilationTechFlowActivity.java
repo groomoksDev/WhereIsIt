@@ -1,4 +1,4 @@
-package ru.example.whereisit.ventilation;
+package ru.example.whereisit.ui.ventilation;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

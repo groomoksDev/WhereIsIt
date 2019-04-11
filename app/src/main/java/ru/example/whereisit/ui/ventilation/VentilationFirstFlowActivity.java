@@ -1,4 +1,4 @@
-package ru.example.whereisit.ventilation;
+package ru.example.whereisit.ui.ventilation;
 
 import android.content.Intent;
 import android.os.Bundle;

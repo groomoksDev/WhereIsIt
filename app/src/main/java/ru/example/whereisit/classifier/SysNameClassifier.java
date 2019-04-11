@@ -1,6 +1,4 @@
-package ru.example.whereisit.Classifier;
-
-import java.util.Map;
+package ru.example.whereisit.classifier;
 
 public enum SysNameClassifier {
     B0(0),//Заголовок

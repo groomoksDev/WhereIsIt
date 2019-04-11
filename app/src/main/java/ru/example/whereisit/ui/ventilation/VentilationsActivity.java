@@ -1,4 +1,4 @@
-package ru.example.whereisit.ventilation;
+package ru.example.whereisit.ui.ventilation;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,7 +15,7 @@ public class VentilationsActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ventilations_layout);
+        setContentView(R.layout.ventilations);
 
         techFlowBtn = findViewById(R.id.ventilationsTechFlowBtn);
         techFlowBtn.setOnClickListener(new View.OnClickListener() {

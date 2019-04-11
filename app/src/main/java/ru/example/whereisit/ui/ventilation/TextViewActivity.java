@@ -1,4 +1,4 @@
-package ru.example.whereisit.ventilation;
+package ru.example.whereisit.ui.ventilation;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,16 +6,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
 import android.widget.TextView;
 
-import ru.example.whereisit.Classifier.SysNameClassifier;
+import ru.example.whereisit.classifier.SysNameClassifier;
 import ru.example.whereisit.R;
 
-import static ru.example.whereisit.Classifier.SysNameClassifier.*;
+import static ru.example.whereisit.classifier.SysNameClassifier.*;
 
 public class TextViewActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.vent_frst_flow_texview_layout);
+        setContentView(R.layout.vent_frst_flow_texview);
 
         Intent intent = getIntent();
         Integer position = intent.getIntExtra("0", 0);
